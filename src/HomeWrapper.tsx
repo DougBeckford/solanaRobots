@@ -9,9 +9,6 @@ import React from 'react'
 
 
 function HomeWrapper(props:any) {
-    const handleDrawerToggle = async () =>{
-        
-    }
   return (
     <div style={{backgroundImage:`url('${bgImg}')`, height:"100vh",backgroundRepeat:"no-repeat"}}>
         <AppBar component="nav" style={{backgroundColor:"rgba(255, 0, 0, 0)"}}>
@@ -29,7 +26,7 @@ function HomeWrapper(props:any) {
 
                   style={{ color: '#fff',fontWeight:"bold",fontSize:"20px" }}
                 >
-                <a href="https://twitter.com/" target="_blank" style={{textDecoration:"none",color:"white"}}>
+                <a href="https://twitter.com/" rel="noreferrer" target="_blank" style={{textDecoration:"none",color:"white"}}>
 
                     <img src={Twitter} alt="discord-svg" height={48} width={48}/>
                 </a>
@@ -38,7 +35,7 @@ function HomeWrapper(props:any) {
 
                   style={{ color: '#fff',fontWeight:"bold",fontSize:"20px" }}
                 >
-                <a href="https://discord.com/" target="_blank" style={{textDecoration:"none",color:"white"}}>
+                <a href="https://discord.com/" rel="noreferrer" target="_blank" style={{textDecoration:"none",color:"white"}}>
 
                     <img src={Discord} alt="discord-svg" height={48} width={48}/>
                 </a>
